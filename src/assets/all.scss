@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$primary-bg: linear-gradient(to right, #d29720 , #f0cc19);
+
+body{
+    //max-width: 1280px;
+    font-family: "Noto Sans TC", serif;
+    margin: 0 auto;
+    padding: 0;
+    background-image: $primary-bg;
+}
+
+.login-page{
+    //width: 900px;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    img{
+        width: 400px;
+        border-radius: 10px;
+        box-shadow:0 0 10px 0 rgb(48, 42, 25),inset 0 0 10px 0 rgb(218, 174, 27);
+    }
+}
+
+.table{
+    thead{
+        tr{
+            border-radius: 5px 5px 0 0;
+        }
+        th{
+            background: rgb(200, 158, 33);
+        }
+    }
+    tbody{
+        tr{
+            th, td{
+                background:rgb(210, 166, 54);
+            }
+        }
+    }
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    max-height: 300px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    
+}
